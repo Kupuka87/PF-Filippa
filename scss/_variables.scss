@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Inicio - Main - Contenedor Responsive */
+@media (max-width: 1200px) {
+    .presentacion {
+        font-size: 30px;
+    }
+
+    .descripcion {
+        font-size: 16px;
+    }
+}
+@media (max-width: 768px) {
+    .presentacion {
+        font-size: 24px;
+    }
+
+    .descripcion {
+        font-size: 14px;
+    }
+}
+@media (max-width: 576px) {
+    .presentacion {
+        font-size: 20px;
+    }
+    .presentacion h1 {
+        font-size: 20px;
+    }
+    .descripcion {
+        font-size: 14px;
+    }
+    .boton1 {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}
+/* Fin- Main - Contenedor Responsive */
+
+.formato{
+    color: white;
+}

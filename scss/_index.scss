@@ -1,0 +1,49 @@
+/* Inicia Main*/
+main {
+    height: calc(100vh);
+    margin: auto;
+    background-color: black;
+    background-image: url(/multimedia/main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 350px;
+  }
+/* Cierra Main*/
+
+/*Inicia Tarjeta Presentación*/
+.presentacion {
+    background-color: rgba(165, 42, 42, 0.336);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.presentacion h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.descripcion {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.boton1 {
+    display: inline-block;
+    background-color: #cd3705ce;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.boton1 a {
+    text-decoration: none;
+    color: white;
+}
+/*Fin Tarjeta Presentación*/

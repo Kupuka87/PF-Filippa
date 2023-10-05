@@ -1,0 +1,87 @@
+.descripcion1{
+    background: rgba(47, 41, 25, 0.616);
+    height: 90vh;
+    width: 50%;
+
+}
+.imgviasdeportivas{
+    background: url(../multimedia/escalada_deportiva.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 90vh;
+}
+.imgviasclasicas{
+    background: url(../multimedia/escalada_clasica.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 90vh;
+}
+.imgviashielo{
+    background: url(../multimedia/escalada_en_hielo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 90vh;
+}
+#secciones{
+    display: flex;
+    max-width: 100%;
+    min-width: 100%;
+}
+.button{
+    text-align: center;
+}
+.boton-escalada{
+    border: 3px solid white;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 30px;
+}
+.subtitulo{
+    font-family: 'Montagu Slab', serif;
+    font-size: 55px;
+    width: 50%;
+    text-transform: uppercase;
+    margin: auto;
+    margin-bottom: 40px;
+}
+@media (max-width: 1200px) {
+    .subtitulo {
+        font-size: 30px;
+    }
+
+    .respuesta {
+        font-size: 16px;
+    }
+}
+@media (max-width: 768px) {
+    .subtitulo {
+        font-size: 24px;
+    }
+
+    .respuesta {
+        font-size: 14px;
+    }
+}
+@media (max-width: 576px) {
+    .subtitulo {
+        font-size: 20px;
+    }
+
+    .respuesta {
+        font-size: 12px;
+    }
+}
+.respuesta{
+    font-size: 15px;
+    line-height: 30px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}

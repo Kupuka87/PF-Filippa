@@ -1,0 +1,270 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Inicio - Main - Contenedor Responsive */
+@media (max-width: 1200px) {
+  .presentacion {
+    font-size: 30px;
+  }
+  .descripcion {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .presentacion {
+    font-size: 24px;
+  }
+  .descripcion {
+    font-size: 14px;
+  }
+}
+@media (max-width: 576px) {
+  .presentacion {
+    font-size: 20px;
+  }
+  .presentacion h1 {
+    font-size: 20px;
+  }
+  .descripcion {
+    font-size: 14px;
+  }
+  .boton1 {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+}
+/* Fin- Main - Contenedor Responsive */
+.formato {
+  color: white;
+}
+
+/* Inicia Main*/
+main {
+  height: 100vh;
+  margin: auto;
+  background-color: black;
+  background-image: url(/multimedia/main.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 350px;
+}
+
+/* Cierra Main*/
+/*Inicia Tarjeta Presentación*/
+.presentacion {
+  background-color: rgba(165, 42, 42, 0.336);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.presentacion h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.descripcion {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.boton1 {
+  display: inline-block;
+  background-color: rgba(205, 55, 5, 0.8078431373);
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.boton1 a {
+  text-decoration: none;
+  color: white;
+}
+
+/*Fin Tarjeta Presentación*/
+.contact {
+  background-color: #181818;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  padding: 0 1.5em;
+}
+
+.contenedor {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+}
+
+.contacto_titulo {
+  text-align: center;
+  font-size: 3em;
+  padding-top: 50px;
+  text-transform: uppercase;
+}
+
+.contacto_titulo span {
+  color: #B70E21;
+}
+
+.contacto {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+}
+
+.contacto > * {
+  padding: 1em;
+}
+
+.formulario {
+  background: #222222;
+}
+
+.formulario form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.formulario form p {
+  margin: 0;
+  padding: 1em;
+}
+
+.formulario form .block {
+  grid-column: 1/3;
+}
+
+.formulario form button,
+.formulario form input,
+.formulario form textarea {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  outline: none;
+  border-bottom: 1px solid #d63031;
+  color: #fff;
+}
+
+.formulario form button {
+  background-color: #b70e21;
+  border: 0;
+  color: #000;
+  text-transform: uppercase;
+  padding: 1em;
+}
+
+.formulario form button:hover,
+.formular form button:focus {
+  background: #d63031;
+  color: #fff;
+  transition: background-color 1s ease;
+  outline: 0;
+}
+
+.descripcion1 {
+  background: rgba(47, 41, 25, 0.616);
+  height: 90vh;
+  width: 50%;
+}
+
+.imgviasdeportivas {
+  background: url(../multimedia/escalada_deportiva.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 90vh;
+}
+
+.imgviasclasicas {
+  background: url(../multimedia/escalada_clasica.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 90vh;
+}
+
+.imgviashielo {
+  background: url(../multimedia/escalada_en_hielo.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 90vh;
+}
+
+#secciones {
+  display: flex;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.button {
+  text-align: center;
+}
+
+.boton-escalada {
+  border: 3px solid white;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  border-radius: 30px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.subtitulo {
+  font-family: "Montagu Slab", serif;
+  font-size: 55px;
+  width: 50%;
+  text-transform: uppercase;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1200px) {
+  .subtitulo {
+    font-size: 30px;
+  }
+  .respuesta {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .subtitulo {
+    font-size: 24px;
+  }
+  .respuesta {
+    font-size: 14px;
+  }
+}
+@media (max-width: 576px) {
+  .subtitulo {
+    font-size: 20px;
+  }
+  .respuesta {
+    font-size: 12px;
+  }
+}
+.respuesta {
+  font-size: 15px;
+  line-height: 30px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */
