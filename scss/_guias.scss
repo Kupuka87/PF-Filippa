@@ -1,75 +1,59 @@
-/* Inicio Presentación Simbolos*/
-.fondo_simbolos{
-  padding: 0 0;
-  background-image: url(../multimedia/montaña.jpg);
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
+.m_croquis {
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(180deg, rgb(206, 89, 11),rgb(204, 114, 54), rgb(224, 152, 104), rgb(231, 190, 163));
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  grid-gap: 20px;
+  padding: 20px;
 }
-.croquis{
-    width: 150vh;
-    height: 80vh;
-    overflow: hidden;
-    position: relative;
-    margin: 50px auto;
-    border-radius: 20px;
-    box-shadow: 5px 8px 12px black;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-}
-.croquis:hover{
-    transform: scale(1.1);
-    box-shadow: 13px 15px 37px black;
-}
-.croquis img{
-    max-width: 100%;
-    max-height: 100%;
-}
-.croquis p {
-    font-size: 3rem;
-    color: white;
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    transform: translate(-25%, -25%);
-    text-shadow: 0 0 8px rgba(0,0,0, 0.8);
-}
-/*Fin Presentación Símbolos*/
-/* Inicio Simbolos*/
-.contenedor_tarjetas{
-  padding: 75px 75px;
-  display: flex;
-  justify-content: center;
+.modelo_croquis {
+  background-color: #f0f0f000;
+  padding: 20px;
   text-align: center;
 }
-#simbolos img{
-  border-radius: 100%;
+.modelo_croquis img {
+  max-width: 100%;
+  height: auto;
 }
-#simbolos div{
-  padding: 30px 30px;
+
+.fondo_simbolos{ 
+  width: 110%;
+  height: auto;
+  color: #fff;
+  background: linear-gradient(180deg, rgb(231, 190, 163), rgb(155, 135, 122), rgb(87, 79, 74), rgb(39, 37, 36), rgb(8, 8, 8), rgb(0, 0, 0));
+  background-size: 400% 400%;
+  position: relative;
 }
-#simbolos h2{
-  color: white;
-  text-transform: uppercase;
-  font-size: 20px;
-  margin: 15px 0;
-}
-#simbolos p{
-  color: white;
-  font-size: 18px;
-}
-.card_simbolo{
-  background: linear-gradient(180deg,rgba(212, 216, 217,0.9),rgba(211,217,215,0.9), rgba(69,79,91,0.9),rgba(48,59,53,0.9));
-  width: 270px;
-  height: 400px;
-  margin: 20px;
+.simbologia{
+  background-color: rgb(40,38,38);
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding: 40px;
+  width: 50%;
+  margin: 15px auto;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba (0, 0 ,0, 0.5);
 }
-.card_simbolo img{
-  background-color: aqua;
-  height: 150px;
-  margin-bottom: 15px;
-  background-size: cover;
-  justify-content: space-around;
+
+.simbologia img {
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 30px;
+  border: dashed 3px white;
+}
+
+.simbologia h2{
+  margin: 0;
+  color: aqua;
+}
+
+.simbologia p{
+  color: antiquewhite;
+  margin-right: 15px;
 }
