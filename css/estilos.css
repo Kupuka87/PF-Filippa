@@ -6,24 +6,6 @@
   box-sizing: border-box;
 }
 
-/* Inicia Main*/
-main {
-  height: 100vh;
-  margin: auto;
-  background-color: black;
-  background-image: url(/multimedia/main.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  padding-left: 50px;
-  padding-right: 350px;
-}
-
-/* Cierra Main*/
 /*Inicia Tarjeta Presentación*/
 .presentacion {
   width: 600px;
@@ -45,6 +27,7 @@ main {
   box-shadow: 2px 2px 5px #222;
 }
 
+/*Inicia Botones*/
 .boton_index {
   position: relative;
   display: inline-block;
@@ -124,6 +107,7 @@ main {
   transition-delay: 0.75s;
 }
 
+/*Fin Botones*/
 /*responsive*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .tarjeta_index {
@@ -137,6 +121,24 @@ main {
     padding: 5px;
   }
 }
+/* Inicia Main*/
+main {
+  height: 100vh;
+  margin: auto;
+  background-color: black;
+  background-image: url(/multimedia/main.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 350px;
+}
+
+/* Cierra Main*/
 .contact {
   background-color: #181818;
   color: #fff;
@@ -399,6 +401,7 @@ main {
   width: 300px;
   height: 350px;
   margin-left: 10px;
+  margin-top: 50px;
 }
 
 .tarjeta_centros .cara {
